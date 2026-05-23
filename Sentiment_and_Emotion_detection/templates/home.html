@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="row g-5 justify-content-center text-center">
+
+  <!-- Big Hero Section -->
+  <div class="col-lg-10" data-aos="fade-up">
+    <h2 class="display-4 fw-bold text-white mb-4">
+      Unlock Emotions in Text with <span class="text-gradient">AI Precision</span>
+    </h2>
+    <p class="lead text-white-50 mb-5 fs-4">
+      Upload your dataset • Clean & preprocess • Visualize emotions • Classify instantly
+    </p>
+  </div>
+
+  <!-- Action Cards -->
+  <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+    <div class="h-100 p-5 rounded-4 position-relative overflow-hidden shadow-lg card-hover"
+         style="background: linear-gradient(135deg, #667eea, #764ba2); border: none;">
+      <div class="position-absolute top-0 end-0 p-4 opacity-20">
+        <i class="bi bi-gear-wide-connected display-1"></i>
+      </div>
+      <h3 class="fw-bold text-white mb-3">1. Preprocess</h3>
+      <p class="text-white-50 mb-4">Clean, normalize, and prepare your text dataset for analysis</p>
+      <a href="{% url 'preprocess' %}" 
+         class="btn btn-light btn-lg stretched-link rounded-pill px-5 shadow">
+        <i class="bi bi-arrow-right-circle me-2"></i> Start Preprocessing
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+    <div class="h-100 p-5 rounded-4 position-relative overflow-hidden shadow-lg card-hover"
+         style="background: linear-gradient(135deg, #f093fb, #f5576c); border: none;">
+      <div class="position-absolute top-0 end-0 p-4 opacity-20">
+        <i class="bi bi-pie-chart-fill display-1"></i>
+      </div>
+      <h3 class="fw-bold text-white mb-3">2. Visualize</h3>
+      <p class="text-white-50 mb-4">See emotion distribution powered by Gemini AI labeling</p>
+      <a href="{% url 'visualize' %}" 
+         class="btn btn-light btn-lg stretched-link rounded-pill px-5 shadow">
+        <i class="bi bi-arrow-right-circle me-2"></i> Explore Insights
+      </a>
+    </div>
+  </div>
+
+  <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+    <div class="h-100 p-5 rounded-4 position-relative overflow-hidden shadow-lg card-hover"
+         style="background: linear-gradient(135deg, #4facfe, #00f2fe); border: none;">
+      <div class="position-absolute top-0 end-0 p-4 opacity-20">
+        <i class="bi bi-lightning-charge-fill display-1"></i>
+      </div>
+      <h3 class="fw-bold text-white mb-3">3. Classify</h3>
+      <p class="text-white-50 mb-4">Instantly detect sentiment & emotions in any text</p>
+      <a href="{% url 'classify' %}" 
+         class="btn btn-dark btn-lg stretched-link rounded-pill px-5 shadow text-white">
+        <i class="bi bi-arrow-right-circle me-2"></i> Try Live Demo
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- Info Banner -->
+<div class="mt-5 p-4 rounded-4 text-center" 
+     style="background: rgba(100, 100, 255, 0.15); border: 1px dashed rgba(150, 150, 255, 0.4);" 
+     data-aos="fade-up" data-aos-delay="700">
+  <p class="mb-0 text-white-50">
+    <i class="bi bi-info-circle-fill me-2"></i>
+    <strong>Tip:</strong> Start with <strong>Preprocess</strong> → Upload your CSV → Then go to <strong>Visualize</strong> to auto-label emotions using Gemini AI
+  </p>
+</div>
+
+<!-- Custom CSS for this page only -->
+<style>
+  .text-gradient {
+    background: linear-gradient(90deg, #a855f7, #3b82f6, #10b981);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-hover {
+    transition: all 0.4s ease;
+    transform: translateY(0);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-15px) scale(1.03);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6) !important;
+  }
+
+  .btn-light:hover, .btn-dark:hover {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    .display-4 { font-size: 2.5rem; }
+    .card-hover:hover { transform: translateY(-8px); }
+  }
+</style>
+{% endblock %}

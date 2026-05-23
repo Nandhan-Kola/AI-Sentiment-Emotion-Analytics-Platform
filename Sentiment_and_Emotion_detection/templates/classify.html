@@ -1,0 +1,199 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container py-4">
+
+  <!-- Title -->
+  <div class="text-center mb-5">
+    <h1 class="text-gradient fw-bold">Classify Single Text</h1>
+    <p class="text-white-50 lead">Instant sentiment & emotion insights powered by Gemini</p>
+  </div>
+
+
+  <!-- INPUT FORM (Centered) -->
+  <div class="d-flex justify-content-center">
+    <div class="card shadow-lg border-0 mb-5 w-100" style="max-width: 800px;
+         background: rgba(25, 28, 45, 0.92); backdrop-filter: blur(18px); border-radius: 1.6rem;">
+      <div class="card-body p-5">
+
+        <form method="post">
+          {% csrf_token %}
+
+          <label class="form-label text-white-75 fw-semibold mb-2">Enter Text</label>
+
+          <!-- Textarea - Centered & High Contrast -->
+          <textarea name="text" rows="5" class="form-control custom-input">
+            {% if form.text.value %}{{ form.text.value }}{% endif %}
+          </textarea>
+
+          {% if form.text.errors %}
+          <div class="text-danger small mt-2">{{ form.text.errors }}</div>
+          {% endif %}
+
+          <div class="text-end mt-4">
+            <button type="submit" class="btn btn-info btn-lg px-5 shadow">
+              Analyze Text
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+  {% if result %}
+  <div class="animate__animated animate__fadeIn">
+
+    <!-- RESULT CARD -->
+    <div class="card border-0 shadow-lg mb-4 w-100"
+         style="background: rgba(40, 40, 65, 0.6); 
+                border-radius: 1.6rem; 
+                border: 1px solid rgba(120, 120, 250, 0.35);">
+
+      <div class="card-body p-5 text-center">
+
+        <div class="display-1 mb-4">{{ result.emotion_emoji|default:"" }}</div>
+
+        <h2 class="text-white fw-bold mb-3">
+          <span class="text-info">Emotion:</span> {{ result.emotion }}
+          <span class="text-white-50">({{ result.emotion_conf|floatformat:1 }}%)</span>
+        </h2>
+
+        <h3 class="h5 sentiment-line">
+
+          <strong>Sentiment:</strong>
+          <span class="badge px-3 py-2 fs-6 bg-{{ result.sentiment|lower }}">
+            {{ result.sentiment|title }}
+          </span>
+          <span class="text-white-50 ms-2">({{ result.sentiment_conf|floatformat:1 }}%)</span>
+        </h3>
+
+      </div>
+    </div>
+
+
+    <!-- Original + Cleaned Text -->
+    <div class="row g-4 mb-4">
+
+      <div class="col-md-6">
+        <div class="p-4 rounded-4 text-block">
+          <h6 class="text-white-50 mb-2">Original Text</h6>
+          <p class="text-white">{{ result.original }}</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-4 rounded-4 text-block-alt">
+          <h6 class="text-white-50 mb-2">Cleaned Text</h6>
+          <p class="text-white">{{ result.cleaned }}</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- SHAP EXPLANATION -->
+    {% if result.shap_graph %}
+    <div class="card shadow border-0 mb-4"
+         style="background: rgba(18,18,28,0.92); border-radius: 1.4rem; border: 1px solid rgba(160,130,255,0.3);">
+      <div class="card-header border-0 bg-transparent py-3 text-center">
+        <h5 class="text-white mb-0">Word Importance (SHAP-Style)</h5>
+      </div>
+      <div class="card-body text-center p-4">
+        <img src="{{ result.shap_graph }}" class="img-fluid rounded shadow-lg"
+             style="max-height:420px; border: 1px solid rgba(160,130,255,0.4);" />
+      </div>
+    </div>
+    {% endif %}
+
+
+    <!-- RAW OUTPUT -->
+    {% if result.raw %}
+    <details class="card bg-dark bg-opacity-50 border-0 rounded-4 shadow mb-4">
+      <summary class="card-header py-3 text-white-75 fw-semibold cursor-pointer">
+        Raw Gemini Output
+      </summary>
+      <div class="card-body">
+        <pre class="p-3 rounded bg-black text-success small" 
+             style="max-height:350px; overflow:auto;">
+{{ result.raw }}</pre>
+      </div>
+    </details>
+    {% endif %}
+
+
+    <!-- Try Again -->
+    <div class="text-center mt-4">
+      <a href="{% url 'classify' %}" class="btn btn-outline-light btn-lg px-5 rounded-pill">
+        Analyze Another Text
+      </a>
+    </div>
+
+
+  </div>
+  {% endif %}
+
+</div>
+
+
+<!-- FIXED CONTRAST + CENTERED INPUT STYLES -->
+<style>
+
+  /* Force pure white for key labels */
+label.form-label,
+.sentiment-label {
+    color: #ffffff !important;
+}
+/* Force sentiment line to pure white */
+.sentiment-line,
+.sentiment-line * {
+    color: #ffffff !important;
+}
+
+  .text-gradient {
+    background: linear-gradient(90deg,#a855f7,#3b82f6,#10b981,#f59e0b);
+    -webkit-background-clip:text;
+    color:transparent;
+  }
+
+  /* Input Box */
+  .custom-input {
+    background: rgba(15, 18, 35, 0.96);
+    border: 1px solid rgba(120,120,200,0.45);
+    color: #fff;
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+    font-size: 1.15rem;
+    resize: none;
+  }
+
+  .custom-input:focus {
+    background: rgba(25, 28, 55, 0.98);
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 3px rgba(139,92,246,0.25);
+    color: white;
+  }
+
+  /* Text blocks */
+  .text-block {
+    background: rgba(25,25,45,0.85);
+    border-left: 4px solid #6366f1;
+  }
+
+  .text-block-alt {
+    background: rgba(25,25,45,0.85);
+    border-left: 4px solid #0ea5e9;
+  }
+
+  /* Sentiment badges */
+  .bg-positive { background:#10b981 !important; }
+  .bg-negative { background:#ef4444 !important; }
+  .bg-neutral  { background:#6b7280 !important; }
+
+</style>
+
+{% endblock %}

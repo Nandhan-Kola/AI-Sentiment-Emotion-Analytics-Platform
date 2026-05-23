@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container py-5">
+  <!-- Epic Header -->
+  <div class="text-center mb-6" data-aos="fade-down">
+    <h1 class="display-4 fw-black text-white mb-3">
+      Emotion & sentimentIntelligence <span class="text-gradient">Unlocked</span>
+    </h1>
+
+  </div>
+
+  <!-- Dashboard Grid -->
+  <div class="row g-4 g-xl-5">
+
+    <!-- Sentiment Donut -->
+    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+      <div class="viz-card">
+        <h3 class="viz-title"><i class="bi bi-pie-chart-fill text-warning"></i> Sentiment Distribution</h3>
+        <div class="chart-container">
+          <img src="{{ viz.donut }}" class="chart-img" alt="Sentiment Donut">
+        </div>
+      </div>
+    </div>
+
+    <!-- Emotion Horizontal Bar -->
+    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+      <div class="viz-card">
+        <h3 class="viz-title"><i class="bi bi-heart-pulse-fill text-pink"></i> Emotion Distribution</h3>
+        <div class="chart-container">
+          <img src="{{ viz.emotion_h }}" class="chart-img" alt="Emotion Bar">
+        </div>
+      </div>
+    </div>
+
+    <!-- Sentiment KDE -->
+    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+      <div class="viz-card">
+        <h3 class="viz-title"><i class="bi bi-activity text-success"></i> Sentiment Confidence</h3>
+        <div class="chart-container">
+          <img src="{{ viz.sent_kde }}" class="chart-img" alt="Sentiment KDE">
+        </div>
+      </div>
+    </div>
+
+    <!-- Emotion KDE -->
+    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="400">
+      <div class="viz-card">
+        <h3 class="viz-title"><i class="bi bi-lightning-charge-fill text-purple"></i> Emotion Confidence</h3>
+        <div class="chart-container">
+          <img src="{{ viz.emo_kde }}" class="chart-img" alt="Emotion KDE">
+        </div>
+      </div>
+    </div>
+
+    <!-- Scatter Plot -->
+    <div class="col-lg-8" data-aos="zoom-in" data-aos-delay="500">
+      <div class="viz-card">
+        <h3 class="viz-title"><i class="bi bi-scatter-chart text-info"></i> Confidence Scatter</h3>
+        <div class="chart-container tall">
+          <img src="{{ viz.scatter }}" class="chart-img" alt="Scatter">
+        </div>
+      </div>
+    </div>
+
+    <!-- Word Clouds Side by Side -->
+    <div class="col-lg-4">
+      <div class="row g-4">
+        <div class="col-12" data-aos="zoom-in" data-aos-delay="600">
+          <div class="viz-card">
+            <h3 class="viz-title"><i class="bi bi-sun-fill text-yellow"></i> Positive Words</h3>
+            <div class="chart-container">
+              <img src="{{ viz.pos_wc }}" class="chart-img rounded-4" alt="Positive WC">
+            </div>
+          </div>
+        </div>
+        <div class="col-12" data-aos="zoom-in" data-aos-delay="700">
+          <div class="viz-card">
+            <h3 class="viz-title"><i class="bi bi-cloud-rain-fill text-blue"></i> Negative Words</h3>
+            <div class="chart-container">
+              <img src="{{ viz.neg_wc }}" class="chart-img rounded-4" alt="Negative WC">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Aspect-Based (Full Width) -->
+    <div class="col-12" data-aos="fade-up" data-aos-delay="800">
+      <div class="viz-card">
+        <h3 class="viz-title"><i class="bi bi-diagram-3-fill text-cyan"></i> Aspect-Based Sentiment</h3>
+        <div class="chart-container tall">
+          <img src="{{ viz.aspect }}" class="chart-img" alt="Aspect-Based">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Download CTA -->
+  <div class="text-center mt-6" data-aos="fade-up" data-aos-delay="900">
+    <a href="{{ viz.annotated_csv }}" 
+       class="btn btn-success btn-lg px-6 py-4 rounded-pill shadow-lg fw-bold d-inline-flex align-items-center gap-3 position-relative overflow-hidden"
+       download>
+      <i class="bi bi-download fs-4"></i>
+      <span>Download Annotated Dataset (CSV)</span>
+      <span class="position-absolute top-50 end-0 translate-middle-y me-4 opacity-0 transition-all">
+        <i class="bi bi-arrow-right-circle-fill fs-3"></i>
+      </span>
+    </a>
+  </div>
+</div>
+
+<style>
+  .text-gradient {
+    background: linear-gradient(90deg, #8b5cf, #3b82f6, #10b981, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .viz-card {
+    background: rgba(20, 20, 40, 0.85);
+    backdrop-filter: blur(20px);
+    border-radius: 1.8rem;
+    padding: 2rem;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    transition: all 0.5s ease;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .viz-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(139,92,246,0.1), transparent 50%);
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+
+  .viz-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 30px 80px rgba(139, 92, 246, 0.25);
+  }
+
+  .viz-card:hover::before {
+    opacity: 1;
+  }
+
+  .viz-title {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 1.6rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .chart-container {
+    background: rgba(10, 10, 30, 0.6);
+    border-radius: 1.4rem;
+    padding: 1.5rem;
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .chart-container.tall {
+    min-height: 420px;
+  }
+
+  .chart-img {
+    max-width: 100%;
+    max-height: 480px;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    transition: transform 0.4s ease;
+  }
+
+  .chart-img:hover {
+    transform: scale(1.05);
+  }
+
+  .btn-success {
+    background: linear-gradient(135deg, #10b981, #059669);
+    border: none;
+    font-size: 1.3rem;
+  }
+
+  .btn-success:hover {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 25px 50px rgba(16, 185, 129, 0.5);
+  }
+
+  .btn-success:hover span:last-child {
+    opacity:  opacity: 1;
+    transform: translateX(10px);
+  }
+
+  .text-yellow { color: #fbbf24; }
+  .text-pink   { color: #ec4899; }
+  .text-purple { color: #a78bfa; }
+  .text-cyan   { color: #22d3ee; }
+  .text-blue   { color: #3b82f6; }
+</style>
+
+<!-- Confetti Celebration -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+<script>
+  // Celebrate analysis completion
+  confetti({
+    particleCount: 150,
+    spread: 80,
+    origin: { y: 0.6 },
+    colors: ['#8b5cf6', '#3b82f6', '#10b981', '#f59e0b', '#ec4899']
+  });
+</script>
+
+{% endblock %}

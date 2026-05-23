@@ -1,0 +1,501 @@
+cleaned_text,sentiment,emotion,sentiment_conf,emotion_conf
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+the product broke within a week,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+this exceeded my expectations,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+not bad but not great either,Negative,sadness,0.82,0.78
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+this exceeded my expectations,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+this exceeded my expectations,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+great quality and excellent performance,Positive,joy,0.85,0.8
+i regret buying this item,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+this exceeded my expectations,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+i absolutely love this product,Positive,joy,0.85,0.8
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+decent build quality and features,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+very disappointed with the quality,Negative,sadness,0.82,0.78
+not bad but not great either,Negative,sadness,0.82,0.78
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+amazing experience highly recommended,Positive,joy,0.85,0.8
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+this exceeded my expectations,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+not bad but not great either,Negative,sadness,0.82,0.78
+it works fine for daily use,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+it works fine for daily use,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+very disappointed with the quality,Negative,sadness,0.82,0.78
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+this exceeded my expectations,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+the product broke within a week,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+amazing experience highly recommended,Positive,joy,0.85,0.8
+it works fine for daily use,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+i absolutely love this product,Positive,joy,0.85,0.8
+i absolutely love this product,Positive,joy,0.85,0.8
+the product broke within a week,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+it works fine for daily use,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+not bad but not great either,Negative,sadness,0.82,0.78
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+i regret buying this item,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+decent build quality and features,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+i regret buying this item,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+very disappointed with the quality,Negative,sadness,0.82,0.78
+average experience could be better,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+the product broke within a week,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+decent build quality and features,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+not bad but not great either,Negative,sadness,0.82,0.78
+it works fine for daily use,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+the product broke within a week,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+the product broke within a week,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+i absolutely love this product,Positive,joy,0.85,0.8
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+very disappointed with the quality,Negative,sadness,0.82,0.78
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+this exceeded my expectations,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+terrible performance and slow response,Negative,sadness,0.82,0.78
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+amazing experience highly recommended,Positive,joy,0.85,0.8
+very disappointed with the quality,Negative,sadness,0.82,0.78
+terrible performance and slow response,Negative,sadness,0.82,0.78
+i absolutely love this product,Positive,joy,0.85,0.8
+the product broke within a week,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+great quality and excellent performance,Positive,joy,0.85,0.8
+great quality and excellent performance,Positive,joy,0.85,0.8
+it works fine for daily use,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+very disappointed with the quality,Negative,sadness,0.82,0.78
+i regret buying this item,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+average experience could be better,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+decent build quality and features,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+i absolutely love this product,Positive,joy,0.85,0.8
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+i regret buying this item,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+the product broke within a week,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+it performs as expected,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+i regret buying this item,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+this exceeded my expectations,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+i absolutely love this product,Positive,joy,0.85,0.8
+terrible performance and slow response,Negative,sadness,0.82,0.78
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+terrible performance and slow response,Negative,sadness,0.82,0.78
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+it performs as expected,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+the product broke within a week,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+great quality and excellent performance,Positive,joy,0.85,0.8
+great quality and excellent performance,Positive,joy,0.85,0.8
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+average experience could be better,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+the product broke within a week,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+quality is acceptable for the price,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+i absolutely love this product,Positive,joy,0.85,0.8
+it performs as expected,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+very disappointed with the quality,Negative,sadness,0.82,0.78
+i regret buying this item,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+excellent service and fast delivery,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+i regret buying this item,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+value for money totally satisfied,Neutral,neutral,0.6,0.6
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+customer service was extremely unhelpful,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+decent build quality and features,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+standard experience nothing to highlight,Neutral,neutral,0.6,0.6
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+it performs as expected,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+not worth the price very cheaply built,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8

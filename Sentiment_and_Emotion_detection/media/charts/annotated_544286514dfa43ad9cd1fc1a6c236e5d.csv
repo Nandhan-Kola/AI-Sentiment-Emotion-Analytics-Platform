@@ -1,0 +1,21 @@
+cleaned_text,sentiment,emotion,sentiment_conf,emotion_conf
+the camera quality of this phone is amazing but the battery drains fast,Positive,joy,0.85,0.8
+battery life is terrible but the display is bright and sharp,Negative,sadness,0.82,0.78
+the laptop performance is smooth but the fan noise is too loud,Neutral,neutral,0.6,0.6
+i love the sound quality of these headphones but the build feels cheap,Positive,joy,0.85,0.8
+the delivery was super fast but the packaging was damaged,Neutral,neutral,0.6,0.6
+customer service was very rude and unhelpful,Neutral,neutral,0.6,0.6
+the food tasted great but the portion size was very small,Positive,joy,0.85,0.8
+the hotel room was clean but the wi fi was extremely slow,Neutral,neutral,0.6,0.6
+the product quality is top notch completely satisfied,Neutral,neutral,0.6,0.6
+the price is too high for the level of features offered,Neutral,neutral,0.6,0.6
+the user interface is simple and easy to use,Neutral,neutral,0.6,0.6
+the shoes are comfortable but the color fades quickly,Neutral,neutral,0.6,0.6
+the watch design is elegant and stylish,Neutral,neutral,0.6,0.6
+the app keeps crashing again and again,Neutral,neutral,0.6,0.6
+vegetables were fresh and well packed,Neutral,neutral,0.6,0.6
+the charger heats up too much while using,Neutral,neutral,0.6,0.6
+good value for money really worth it,Positive,joy,0.85,0.8
+the keyboard keys stopped working within a week,Neutral,neutral,0.6,0.6
+the fragrance of this perfume lasts all day,Neutral,neutral,0.6,0.6
+the tv remote is unresponsive and laggy,Neutral,neutral,0.6,0.6

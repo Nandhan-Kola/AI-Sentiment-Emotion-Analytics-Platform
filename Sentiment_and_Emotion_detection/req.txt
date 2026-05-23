@@ -1,0 +1,6 @@
+Django==4.2
+pandas==2.2.2
+matplotlib==3.8.1
+python-dotenv==1.0.0
+google-genai==0.8.0  
+regex==2024.11.22

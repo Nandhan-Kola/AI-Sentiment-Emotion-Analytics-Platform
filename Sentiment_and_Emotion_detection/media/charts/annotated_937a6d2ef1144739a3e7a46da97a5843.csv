@@ -1,0 +1,101 @@
+cleaned_text,sentiment,emotion,sentiment_conf,emotion_conf
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+average experience could be better,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+the product broke within a week,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+the product broke within a week,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+decent build quality and features,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+the product broke within a week,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+great quality and excellent performance,Positive,joy,0.85,0.8
+it works fine for daily use,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+average experience could be better,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+terrible performance and slow response,Negative,sadness,0.82,0.78
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+decent build quality and features,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+terrible performance and slow response,Negative,sadness,0.82,0.78
+terrible performance and slow response,Negative,sadness,0.82,0.78
+very disappointed with the quality,Negative,sadness,0.82,0.78
+terrible performance and slow response,Negative,sadness,0.82,0.78
+i absolutely love this product,Positive,joy,0.85,0.8
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+it works fine for daily use,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+i absolutely love this product,Positive,joy,0.85,0.8
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+amazing experience highly recommended,Positive,joy,0.85,0.8
+not bad but not great either,Negative,sadness,0.82,0.78
+it works fine for daily use,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+very disappointed with the quality,Negative,sadness,0.82,0.78
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+battery life is fantastic and long lasting,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+the design is beautiful and premium,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+decent build quality and features,Neutral,neutral,0.6,0.6
+not bad but not great either,Negative,sadness,0.82,0.78
+great quality and excellent performance,Positive,joy,0.85,0.8
+it works fine for daily use,Neutral,neutral,0.6,0.6
+great quality and excellent performance,Positive,joy,0.85,0.8
+average experience could be better,Neutral,neutral,0.6,0.6
+amazing experience highly recommended,Positive,joy,0.85,0.8
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+battery drains too fast and heats up,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+average experience could be better,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+worst experience ever not recommended,Negative,sadness,0.82,0.78
+very disappointed with the quality,Negative,sadness,0.82,0.78
+not bad but not great either,Negative,sadness,0.82,0.78
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+the product broke within a week,Neutral,neutral,0.6,0.6
+decent build quality and features,Neutral,neutral,0.6,0.6
+the product is okay nothing special,Neutral,neutral,0.6,0.6
+very disappointed with the quality,Negative,sadness,0.82,0.78
+very disappointed with the quality,Negative,sadness,0.82,0.78

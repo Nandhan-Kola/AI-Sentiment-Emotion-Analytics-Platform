@@ -1,0 +1,101 @@
+cleaned_text,sentiment,emotion,sentiment_conf,emotion_conf,explanation
+the service was terrible,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+absolutely fantastic quality,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+it was okay nothing special,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+it was okay nothing special,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+absolutely fantastic quality,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+best purchase ever,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+best purchase ever,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+best purchase ever,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+best purchase ever,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+best purchase ever,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+absolutely fantastic quality,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+absolutely fantastic quality,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+the service was terrible,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+the service was terrible,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+it was okay nothing special,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+the service was terrible,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+it was okay nothing special,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+best purchase ever,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+best purchase ever,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+absolutely fantastic quality,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i feel happy today,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+best purchase ever,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+it was okay nothing special,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+the service was terrible,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+absolutely fantastic quality,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+absolutely fantastic quality,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+the service was terrible,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+it was okay nothing special,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+the service was terrible,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+it was okay nothing special,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.
+absolutely fantastic quality,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+this is the worst experience i ve had,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i am extremely disappointed,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+i m not sure how i feel about this,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+the service was terrible,Negative,sadness,0.82,0.78,Explanation requires Gemini key.
+this made my day so much better,Neutral,neutral,0.6,0.6,Explanation requires Gemini key.
+i love this product it s amazing,Positive,joy,0.85,0.8,Explanation requires Gemini key.

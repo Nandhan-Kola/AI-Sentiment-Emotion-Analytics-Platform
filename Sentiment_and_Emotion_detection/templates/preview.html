@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="row justify-content-center">
+  <div class="col-xxl-10">
+
+    <!-- Header -->
+    <div class="text-center mb-5" data-aos="fade-down">
+      <h1 class="display-5 fw-bold text-white mb-3">
+        <i class="bi bi-check2-all text-success me-3"></i>
+        Preprocessing Complete!
+      </h1>
+      <p class="lead text-white-70">
+        Your dataset is clean, normalized, and ready for emotion analysis
+      </p>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="row g-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 text-center" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+          <h3 class="text-white fw-bold mb-1">{{ count }}</h3>
+          <p class="text-white-70 mb-0">Total Rows Processed</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 text-center" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+          <h3 class="text-white fw-bold mb-1">{{ count|floatformat:0 }}</h3>
+          <p class="text-white-70 mb-0">Clean Text Entries</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 text-center" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+          <h3 class="text-white fw-bold mb-1">100%</h3>
+          <p class="text-white-70 mb-0">Ready for Visualization</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Table Card -->
+    <div class="content-card p-4 p-lg-5" data-aos="fade-up" data-aos-delay="200">
+      
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="text-white mb-0">
+          <i class="bi bi-table me-2"></i>
+          Preview: First 50 Cleaned Rows
+        </h3>
+        <div class="text-white-50 small">
+          Showing 1–{{ rows|length }} of {{ count }} rows
+        </div>
+      </div>
+
+      <div class="table-responsive rounded-4 overflow-hidden shadow-sm"
+           style="background: rgba(10,10,30,0.8); border: 1px solid rgba(100,100,255,0.2);">
+        <table class="table table-hover table-dark mb-0 align-middle">
+          <thead class="bg-gradient" style="background: linear-gradient(90deg, #6366f1, #8b5cf6);">
+            <tr>
+              <th class="text-white-50 ps-4">#</th>
+              <th class="text-white ps-4">Cleaned Text</th>
+              <th class="text-center pe-4"><i class="bi bi-chat-dots"></i></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for r in rows %}
+            <tr class="border-start border-3 border-primary-subtle transition-all" 
+                style="transition: all 0.3s ease;">
+              <td class="text-white-50 ps-4 fw-medium">{{ forloop.counter }}</td>
+              <td class="text-white pe-4" style="max-width: 800px; word-wrap: break-word;">
+                {{ r.cleaned_text }}
+              </td>
+              <td class="text-center">
+                <span class="badge bg-success-subtle text-success px-3 py-2">
+                  Ready
+                </span>
+              </td>
+            </tr>
+            {% empty %}
+            <tr>
+              <td colspan="3" class="text-center py-5 text-white-50">
+                <i class="bi bi-inbox display-4 d-block mb-3"></i>
+                No data available
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="d-flex flex-wrap gap-3 justify-content-center mt-5">
+        <a href="{% url 'visualize' %}" 
+           class="btn btn-lg btn-warning rounded-pill px-5 shadow-lg d-flex align-items-center position-relative overflow-hidden"
+           style="min-width: 260px;">
+          <i class="bi bi-bar-chart-fill me-3"></i>
+          <strong>Go to Visualization</strong>
+          <span class="position-absolute end-0 top-50 translate-middle-y me-4 opacity-0 transition-all">
+            <i class="bi bi-arrow-right-circle-fill fs-3"></i>
+          </span>
+        </a>
+
+        <a href="{% url 'home' %}" class="btn btn-outline-light btn-lg rounded-pill px-5">
+          <i class="bi bi-house-door me-2"></i> Back to Home
+        </a>
+      </div>
+
+      <!-- Fun Confetti Trigger (optional) -->
+      <div class="text-center mt-4">
+        <small class="text-white-50">
+          Your data is sparkling clean
+        </small>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Page-specific Styles -->
+<style>
+  tr:hover {
+    background: rgba(99, 102, 241, 0.15) !important;
+    transform: translateX(8px);
+  }
+  tr:hover .border-start {
+    border-color: #818cf8 !important;
+  }
+  .btn-warning:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(251, 191, 36, 0.4) !important;
+  }
+  .btn-warning:hover span {
+    opacity: 1;
+    transform: translateX(10px);
+  }
+  .badge {
+    font-size: 0.8rem;
+  }
+</style>
+
+<!-- Optional: Confetti on load for fun -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+<script>
+  // Fire confetti when page loads (fun celebration!)
+  setTimeout(() => {
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+      colors: ['#818cf8', '#c084fc', '#f472b6', '#34d399']
+    });
+  }, 800);
+</script>
+
+{% endblock %}

@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="min-vh-100 d-flex align-items-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+
+        <!-- Title -->
+        <div class="text-center mb-6" data-aos="fade-up">
+          <h1 class="display-3 fw-black text-white lh-1 mb-4">
+            Visualize<br>
+            <span class="text-gradient">Emotion & sentimentIntelligence</span>
+          </h1>
+
+        </div>
+
+        <!-- Drop Zone Card -->
+        <div class="card-upload mx-auto" style="max-width: 680px;" data-aos="fade-up" data-aos-delay="200">
+          <form method="POST" enctype="multipart/form-data" id="vizForm">
+            {% csrf_token %}
+
+            <div class="drop-box" id="dropBox">
+              <input type="file" name="file" accept=".csv" required id="fileInput" class="file-input">
+
+              <div class="idle-state text-center">
+                <div class="icon mb-4">
+                  <i class="bi bi-file-earmark-text-fill display-1 text-primary"></i>
+                </div>
+                <h3 class="text-white fw-semibold">Drop your CSV here</h3>
+                <p class="text-white-50">or click to select • max 100k rows</p>
+              </div>
+
+              <div class="active-state text-center d-none" id="fileInfo">
+                <i class="bi bi-check-circle-fill text-success display-1 mb-3"></i>
+                <h4 class="text-white" id="name"></h4>
+                <p class="text-white-50 small" id="size"></p>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="mt-4 d-flex gap-3 align-items-end">
+              <div class="flex-fill">
+                <label class="text-white small fw-medium mb-2 d-block">
+                  <i class="bi bi-sliders2"></i> Max rows (0 = all)
+                </label>
+                <input type="number" name="max_rows" value="0" min="0" 
+                       class="form-control form-control-lg bg-dark border-0 text-white shadow-sm">
+              </div>
+              <div>
+                <button type="submit" class="btn btn-warning btn-lg px-5 fw-bold rounded-3 shadow-lg h-100"
+                        id="analyzeBtn">
+                  <span class="d-flex align-items-center gap-3">
+                    <span>Analyze with Gemini</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .text-gradient {
+    background: linear-gradient(120deg, #8b5cf6, #3b82f6, #10b981);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-upload {
+    background: rgba(20, 20, 40, 0.7);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(139, 92, 246, 0.3);
+    border-radius: 2rem;
+    padding: 3rem;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .drop-box {
+    height: 360px;
+    border: 3px dashed rgba(139, 92, 246, 0.4);
+    border-radius: 1.5rem;
+    background: rgba(139, 92, 246, 0.05);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    overflow: hidden;
+  }
+
+  .drop-box:hover,
+  .drop-box.dragover {
+    border-color: #a78bfa;
+    background: rgba(167, 139, 250, 0.15);
+    transform: scale(1.02);
+  }
+
+  .drop-box::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(167,139,250,0.1) 50%, transparent 70%);
+    transform: translateX(-100%);
+    transition: transform 0.6s;
+  }
+
+  .drop-box.dragover::before {
+    transform: translateX(100%);
+  }
+
+  .file-input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  #analyzeBtn {
+    min-width: 220px;
+    height: 58px;
+    background: linear-gradient(45deg, #f59e0b, #f97316);
+    border: none;
+    transition: all 0.3s ease;
+  }
+
+  #analyzeBtn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(249, 115, 22, 0.4);
+  }
+</style>
+
+<script>
+  const dropBox = document.getElementById('dropBox');
+  const fileInput = document.getElementById('fileInput');
+  const idle = document.querySelector('.idle-state');
+  const active = document.getElementById('fileInfo');
+  const nameEl = document.getElementById('name');
+  const sizeEl = document.getElementById('size');
+
+  ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(e => {
+    dropBox.addEventListener(e, ev => ev.preventDefault());
+  });
+
+  ['dragenter', 'dragover'].forEach(e => dropBox.classList.add('dragover'));
+  ['dragleave', 'drop'].forEach(e => dropBox.classList.remove('dragover'));
+
+  dropBox.addEventListener('drop', e => {
+    const file = e.dataTransfer.files[0];
+    if (file && file.name.endsWith('.csv')) {
+      fileInput.files = e.dataTransfer.files;
+      showFile(file);
+    }
+  });
+
+  fileInput.addEventListener('change', () => {
+    if (fileInput.files[0]) showFile(fileInput.files[0]);
+  });
+
+  function showFile(file) {
+    idle.classList.add('d-none');
+    active.classList.remove('d-none');
+    nameEl.textContent = file.name;
+    sizeEl.textContent = (file.size / 1024 / 1024).toFixed(2) + ' MB';
+  }
+
+  document.getElementById('vizForm').addEventListener('submit', () => {
+    document.getElementById('analyzeBtn').innerHTML = '<span class="spinner-border spinner-border-sm me-3"></span>Analyzing...';
+    document.getElementById('analyzeBtn').disabled = true;
+  });
+</script>
+
+{% endblock %}
