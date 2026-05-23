@@ -1,1 +1,5 @@
-env/ 
+Sentiment_and_Emotion_detection/media/charts/
+Sentiment_and_Emotion_detection/media/uploads/
+__pycache__/
+*.pyc
+db.sqlite3
